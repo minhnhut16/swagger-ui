@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Swagger UI demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repo is a demo to clone swagger file on repos that I can join at ts
 
 ## Available Scripts
 
