@@ -1,0 +1,71 @@
+{
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "extends": [
+      "airbnb",
+      "react-app",
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:jest/recommended",
+      "plugin:prettier/recommended",
+      "prettier"
+    ],
+    "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "moduleDirectory": ["node_modules", "src"]
+        }
+      }
+    },
+    "plugins": [],
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": true,
+          "printWidth": 100,
+          "tabWidth": 2,
+          "semi": true,
+          "trailingComma": "es5"
+        }
+      ],
+      "jest/no-disabled-tests": "warn",
+      "jest/no-focused-tests": "error",
+      "jest/no-identical-title": "error",
+      "jest/prefer-to-have-length": "warn",
+      "jest/valid-expect": "error",
+      "react/jsx-filename-extension": "off",
+      "react/prefer-stateless-function": "off",
+      "react/no-did-mount-set-state": "off",
+      "react/display-name": "off",
+      "react/react-in-jsx-scope": "off",
+      "import/no-extraneous-dependencies": "off",
+      "import/prefer-default-export": "off",
+      "import/no-anonymous-default-export": [
+        "warn",
+        {
+          "allowObject": true
+        }
+      ],
+      "no-console": "off",
+      "no-plusplus": "off",
+      "jsx-a11y/anchor-is-valid": "off",
+      "jsx-a11y/click-events-have-key-events": "off",
+      "jsx-a11y/no-noninteractive-element-interactions": "off",
+      "jsx-a11y/anchor-has-content": "off"
+    }
+  }
+  
